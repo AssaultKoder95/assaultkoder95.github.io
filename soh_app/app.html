@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Shades Of Happiness - E-Learning Project </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/notie/dist/notie.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="startApp()">
+
+<div class="container containment" id="preloader">
+  <div class="item item-1"></div>
+  <div class="item item-2"></div>
+  <div class="item item-3"></div>
+  <div class="item item-4"></div>
+</div>
+  
+<div class="container" id="startApp" style="display:none;">
+  	<div class="row">
+      <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 text-center">
+          
+        <h2 class="col-md-12 handwriting" style="margin:50px 0px;"> A Shades Of Happiness Foundation Initiative </h2>
+        
+        <h4 style="color:white;text-transform:uppercase;"> Fill in the blanks using given letters </h4>
+        <h4 style="color:goldenrod;text-transform:uppercase;"> HINT : I am king of jungle </h4>  
+        
+        <div class="row" style="margin-top:75px;">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            
+            <p class="col-md-2 dashes" id="0"> </p>
+            <p class="col-md-1"></p>
+           
+            <p class="col-md-2 dashes" id="1"> </p>
+            <p class="col-md-1"></p>
+           
+            <p class="col-md-2 dashes" id="2"> </p>
+            <p class="col-md-1"></p>
+           
+            <p class="col-md-2 dashes" id="3"> </p>
+            <p class="col-md-1"></p>
+          
+          </div>
+          <div class="col-md-4"></div>
+        </div>
+        
+        <div class="showCaseImages" style="margin-top:50px;"> 
+  
+          <a href="#" class="selectImg" id="sel1" onclick="placeImg(this.id)"> 
+            <img src="images/png/025-letter-l.png" /> 
+          </a>
+  
+          <a href="#" class="selectImg"  id="sel2" onclick="placeImg(this.id)"> 
+            <img src="images/png/032-letter-e.png" /> 
+          </a>
+          <a href="#" class="selectImg"  id="sel6" onclick="placeImg(this.id)"> 
+            <img src="images/png/014-letter-w.png" /> 
+          </a>
+          
+          <a href="#" class="selectImg"  id="sel3" onclick="placeImg(this.id)"> 
+            <img src="images/png/036-letter-a.png" /> 
+          </a>
+          
+          <a href="#" class="selectImg"  id="sel4" onclick="placeImg(this.id)"> 
+            <img src="images/png/019-letter-r.png" /> 
+          </a>
+        
+          <a href="#" class="selectImg" id="sel5" onclick="placeImg(this.id)">
+            <img src="images/png/023-letter-n.png" /> 
+          </a>
+        
+          <a href="#" class="selectImg"  id="sel8" onclick="placeImg(this.id)"> 
+            <img src="images/png/017-letter-t.png" /> 
+          </a>
+          
+          <a href="#" class="selectImg"  id="sel7" onclick="placeImg(this.id)">
+            <img src="images/png/028-letter-i.png" /> 
+          </a>
+          
+          <a href="#" class="selectImg"  id="sel9" onclick="placeImg(this.id)">
+            <img src="images/png/029-letter-h.png" /> 
+          </a>
+          
+          <a href="#" class="selectImg"  id="sel10" onclick="placeImg(this.id)"> 
+            <img src="images/png/022-letter-o.png" /> 
+          </a> 
+            
+        </div>
+        <br><br>
+        <button class="btn btn-primary btn-lg" onclick="checkValue()"> CHECK </button>
+      </div>
+
+	</div>
+</div>
+
+<script src="https://unpkg.com/notie"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
