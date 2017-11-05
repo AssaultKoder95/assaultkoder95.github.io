@@ -1,0 +1,103 @@
+body , .col-sm-12, .col-lg-6, .col-md-6 {
+	margin:0px;
+	padding: 0px;
+}
+
+/*
+
+Utility Classes :
+1. Margins
+2. Paddings
+3. Borders
+
+*/
+
+.mar-top-15{
+	margin-top: 15px;
+}
+
+.green-board {
+	background-color: #42B019;
+	width: 150px;
+	height: 150px;
+	border:2px solid black;
+	font-size: 400%;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 150px;
+}
+
+img.col-md-2 {
+	padding:0px;
+	height: 150px;
+	width: 150px;
+}
+
+
+/*
+END Utility Classes
+*/
+
+.para {
+	padding: 20px;
+	line-height: 22px;
+	font-size: 15px;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+hr {
+	border-top: 2px solid #00622e;
+	width: 98%;
+}
+
+.navbar-green {
+	background-color: #00622e;
+	border-radius: 0px;
+}
+
+nav a{
+	color:white;
+	font-size: 18px; 
+}
+
+.icon-bar{
+	background-color: white;
+}
+
+#myCarousel .nav a small
+{
+    display: block;
+}
+
+#myCarousel .nav
+{
+    background: #eee;
+}
+img {
+	position: relative;
+}
+.overlay {
+	background-color: rgba(0,0,0,0.6);
+	z-index: 2;
+}
+
+.nav-justified > li > a
+{
+    border-radius: 0px;
+}
+
+.nav-pills>li[data-slide-to="0"].active a { background-color: #00622e; }
+.nav-pills>li[data-slide-to="1"].active a { background-color: #00622e; }
+.nav-pills>li[data-slide-to="2"].active a { background-color: #00622e; }
+.nav-pills>li[data-slide-to="3"].active a { background-color: #00622e; }
+
+footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+}
+    
