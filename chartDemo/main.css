@@ -1,0 +1,13 @@
+header {
+  color: rgb(255, 255, 255, 0.9);
+  border-bottom: 2px solid orange; 
+}
+
+body {
+  background: #24292e;
+}
+
+footer {
+  color: rgb(255, 255, 255, 0.9);
+  border-top: 2px solid orange;
+}
